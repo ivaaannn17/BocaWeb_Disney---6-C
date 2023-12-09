@@ -18,7 +18,7 @@ export default function Navbar() {
                     <a href='/personagem'> Personagens </a>
                 </li>
                 <li>
-                    <a href='/descricao'> Descrição </a>
+                    <a href='/descricao'> Descrições </a>
                 </li>
             </ul>
 
