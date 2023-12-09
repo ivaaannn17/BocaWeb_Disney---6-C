@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15vh;
+  padding: 10vh;
 
 }
 
@@ -12,14 +12,10 @@
     align-items: flex-start;
   }}
 
-.texto{
-  margin-top: 20px;
-  display:flex;
-  justify-content: space-between;
-  
-}
+
 
 .home h2{
+  margin-left: 5vh;
   font-weight: bold;
   font-size: 29px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,6 +24,7 @@
 }
 
 .home p{
+  margin-left: 5vh;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #48cfcb;
   font-size: 22px;
@@ -35,12 +32,80 @@
 
 }
 
-.disney {
-  color: #228B22;
-  min-height: 60vh;
+.disney{
+  padding: 5vh;
+  text-align: center;
+  color: inherit;
+  
 }
 
-.sobre {
-  color: #B8860B;
-  min-height: 60vh;
+.disney li {
+  margin-bottom: 1vh;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+} 
+
+.disney h1{
+  margin-bottom: 3.5vh;
+  margin-top: 1.5vh;
+  font-weight: bold;
+  font-size: 38px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #48cfcb;
+}
+
+.disney a {
+  color: #FB6B90;
+}
+
+.disney a:hover {
+	text-decoration: underline;
+	color:#48cfcb  ;
+}
+
+.descricao {
+  padding: 4vh;
+
+}
+
+.descricao p{
+  color: #FB6B90;
+  margin-right: 5vh;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+
+.descricao h1{
+  color:#b5f56d  ;
+  font-size: 21px;
+}
+
+.descricao h2{
+  color: #48cfcb;
+  font-size: 15px;
+  margin-top: 1vh;
+}
+
+.texto_desc{
+  padding: 22vh;
+}
+
+.texto_desc h1{
+  color:#b5f56d;
+  font-size: 28px;
+}
+
+.texto_desc p{
+  color: #FB6B90;
+  margin-right: 5vh;
+  margin-top: 2vh;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.texto_desc h2{
+  color: #48cfcb;
+  font-size: 15px;
+  margin-top: 2vh;
+  font-size: 20px;
 }

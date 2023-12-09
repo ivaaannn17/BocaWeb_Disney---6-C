@@ -13,7 +13,7 @@ export default function Home() {
       <div className={styles.home}>
        
 
-        <Image src="/images/venelope.png" className='img' width={450} height={380}  />
+        <Image src="/images/venelope.png" className='img' width={400} height={350}  />
           
           <div className='texto'> 
           

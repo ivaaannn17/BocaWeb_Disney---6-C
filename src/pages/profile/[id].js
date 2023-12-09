@@ -1,10 +1,14 @@
+
 import styles from '../../styles/Pages.module.css';
+
 function Profile({ personagem = {} }) {
     return (
-        <div className='descricao'>
-            <p>{personagem.nome}</p>
-            <p>{personagem.usuario}</p>
-            <p>{personagem.descricao}</p>
+        <div className={styles.texto_desc}>
+            <div>
+                <h1>{personagem.nome}</h1>
+                <h2>{personagem.usuario}</h2>
+                <p>{personagem.descricao}</p>
+            </div>
         </div>
     )
 }
