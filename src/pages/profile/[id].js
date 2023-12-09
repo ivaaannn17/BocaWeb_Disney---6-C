@@ -1,14 +1,23 @@
-
+import Head from 'next/head';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 import styles from '../../styles/Pages.module.css';
 
 function Profile({ personagem = {} }) {
     return (
+        <div>
+        <Head>
+            <title> Disney - Descrições </title>
+        </Head>
+        <Navbar />
         <div className={styles.texto_desc}>
             <div>
                 <h1>{personagem.nome}</h1>
                 <h2>{personagem.usuario}</h2>
                 <p>{personagem.descricao}</p>
             </div>
+        </div>
+        <Footer />
         </div>
     )
 }

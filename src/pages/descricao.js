@@ -14,8 +14,8 @@ export default function Descrição({dados}) {
             {dados.map((personagem) => (
                 <div className={styles.descricao} key={personagem.id}>
                     <h1>{personagem.nome}</h1>
-                    <h2>{personagem.usuario}</h2>
-                    <p>{personagem.descricao}</p>
+                    <h2>Autor: {personagem.usuario}</h2>
+                    <p>Descrição: {personagem.descricao}</p>
                 </div>
             ))}
             </div>
