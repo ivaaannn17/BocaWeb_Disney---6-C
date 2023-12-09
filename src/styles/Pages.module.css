@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15vh;
+
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    align-items: flex-start;
+  }}
+
+.texto{
+  margin-top: 20px;
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.home h2{
+  font-weight: bold;
+  font-size: 29px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #FB6B90;
+
+}
+
+.home p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #48cfcb;
+  font-size: 22px;
+
+
+}
+
+.disney {
+  color: #228B22;
+  min-height: 60vh;
+}
+
+.sobre {
+  color: #B8860B;
+  min-height: 60vh;
+}

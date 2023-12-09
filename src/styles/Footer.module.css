@@ -1,0 +1,16 @@
+.footer {
+    background-color: #A8A8F7;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer h4{
+    font-weight: bold;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }

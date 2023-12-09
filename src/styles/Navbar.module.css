@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    background-color: #c3f58b;
+    box-shadow: 0 2px 5px rgba(252, 251, 251, 0.2);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 2vw;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lista{
+    margin-right: 0;
+    display: flex;
+
+}
+
+.navbar a {
+    width: 30%;
+    margin-right: 20px;
+    color: #FF5964;
+    margin-left: 1em;
+    text-decoration: none;
+    transition: .3s;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.navbar a:hover {
+    color: #FF8F8F
+}
+
+@media (max-width: 564px) {}
